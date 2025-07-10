@@ -28,7 +28,7 @@ const rest = new REST().setToken(token);
 	try {
 		console.log(`Started refreshing ${commands.length} application (/) commands.`);
 
-
+		// global o local (add guildId)
 		const data = await rest.put(
 			Routes.applicationCommands(clientId),
 			{ body: commands },
