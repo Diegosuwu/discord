@@ -1,0 +1,19 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "dbot"
+  },
+  "author": "Diego",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "eslint": "^9.30.1"
+  }
+}
